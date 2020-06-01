@@ -352,7 +352,7 @@ namespace Oxide.Plugins
             return null;
         }
 
-        void OnServerInitialized()
+        void OnPlayerInit()
         {
             LoadData();
             LoadConfig();
